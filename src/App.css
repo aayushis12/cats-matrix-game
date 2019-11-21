@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.existing-images-grid {
+  flex: 0.5;
+  height: 100vh;
+}
+
+.each-existing-image-div {
+  display: inline-block;
+  width: 25%;
+}
+
+.each-cat-image {
+  width: 100px;
+}
+
+.each-cat-image-new {
+  max-height: 100%;
+}
+
+.new-images-grid {
+  flex: 0.5;
+  height: 100vh;
+}
+
+.final-row-container {
+  display: flex;
+}
+
+.final-image-div {
+  flex: 1;
+  border: solid 1px;
+  height: 200px;
+}
+
+.final-cat-image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.container-new {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.new-image-div {
+  border: solid 1px;
+  height: 150px;
+}
+
